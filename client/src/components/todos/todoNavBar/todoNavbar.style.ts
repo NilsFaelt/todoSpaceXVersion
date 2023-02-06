@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const NavContainer = styled.nav`
   display: flex;
@@ -9,7 +10,7 @@ export const NavContainer = styled.nav`
   text-decoration: underline 1px solid white;
   cursor: pointer;
 `;
-export const NavText = styled.p`
+export const StyledLink = styled(Link)`
   font-family: "Prompt", sans-serif;
   color: ${(props) => props.theme.colors.white};
 `;

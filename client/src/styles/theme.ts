@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const theme = {
   colors: {
     dark: "rgba(0,0,0,0.1)",
+    darker: "rgba(0,0,0,0.7)",
     white: "rgba(255,255,255, 1)",
     whiteTrans: "rgba(255,255,255, 0.2)",
   },

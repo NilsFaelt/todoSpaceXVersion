@@ -23,6 +23,7 @@ const DisplayUser = () => {
               <LoginBtn />
             </>
           )}
+          {isLoading && <Spinner />}
         </styles.CardContainer>
       }
     </>

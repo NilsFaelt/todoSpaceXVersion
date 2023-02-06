@@ -3,8 +3,8 @@ import * as styles from "./todoNavbar.style";
 const TodoNavBar = () => {
   return (
     <styles.NavContainer>
-      <styles.NavText>CREATE</styles.NavText>
-      <styles.NavText>ALL TODOS</styles.NavText>
+      <styles.StyledLink to={"create"}>CREATE</styles.StyledLink>
+      <styles.StyledLink to={"alltodos"}>ALL TODOS</styles.StyledLink>
     </styles.NavContainer>
   );
 };
