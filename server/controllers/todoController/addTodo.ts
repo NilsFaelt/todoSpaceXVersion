@@ -1,6 +1,13 @@
 import express, { Response, Request, NextFunction } from "express";
 
-export const addTodo = (req: Request, res: Response) => {
-  console.log(req.body);
-  res.send("Add Todos");
+export const addTodo = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  try {
+    res.send("Add Todos");
+  } catch (err) {
+    next(err);
+  }
 };

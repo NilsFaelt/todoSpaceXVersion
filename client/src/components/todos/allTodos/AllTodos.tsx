@@ -5,7 +5,6 @@ import { Spinner } from "../../../ui/spinner/spinner.style";
 
 const AllTodos = () => {
   const { error, loading, data } = useGetTodos();
-  console.log(error);
   return (
     <styles.Container>
       {loading && <Spinner />}
