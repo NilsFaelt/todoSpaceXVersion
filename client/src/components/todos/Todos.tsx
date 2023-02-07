@@ -17,8 +17,8 @@ const Todos = () => {
           <LoginBtn />
         </>
       )}
-      {isLoading && <Spinner />}
       <Outlet />
+      {isLoading && <Spinner />}
     </styles.TodoContainer>
   );
 };

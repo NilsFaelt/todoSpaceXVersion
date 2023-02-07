@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const TodoContainer = styled.div`
+  position: relative;
   text-align: center;
   margin: 0 auto;
   margin-top: 70px;
